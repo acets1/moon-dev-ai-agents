@@ -107,6 +107,17 @@ Project updates will be posted in Discord, join here: [discord.gg/8UPuVZ53bh](ht
 - Algo Trading Education: [algotradecamp.com](https://algotradecamp.com)
 - Business Contact [moon@algotradecamp.com](mailto:moon@algotradecamp.com)
 
+## 🖥️ Single-Page Trading Dashboard
+
+Run a fast local UI that surfaces your live trading configuration and recent telemetry in one place:
+
+```bash
+python src/scripts/trading_dashboard.py
+# open http://localhost:8000
+```
+
+The page shows your configured exchange, swarm/long-only modes, leverage, and the current watched assets (Solana tokens and perp symbols). It also summarizes recent risk guardrails from `config.py`, the latest portfolio balance checkpoint, sentiment and funding snapshots, open interest/liquidations, allocation records, and data file freshness—all auto-refreshing every 30 seconds.
+
 ---
 
 ## 🚀 Quick Start Guide - RBI Backtesting Agent
